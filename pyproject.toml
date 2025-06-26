@@ -9,3 +9,6 @@ readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
 ]
+
+[project.scripts]
+example-to-test = "example_to_test.example_test_generator:run_cli"
